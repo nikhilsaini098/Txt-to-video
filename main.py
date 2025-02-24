@@ -77,27 +77,27 @@ async def main():
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text(
-       "I Am A Bot For Download Links From Your **.TXT** File And Then Upload That File On Telegram So Basically If You Want To Use Me First Send Me ⟰ /saini Command And Then Follow Few Steps..", reply_markup=InlineKeyboardMarkup(
+       "💫 Hii I Am A Bot For Download Links From Your **.TXT** File And Then Upload That File On Telegram So Basically If You Want To Use Me First Send Me ⟰ /𝐁𝐑𝐈𝐉𝐄𝐒𝐇 Command And Then Follow Few Steps..", reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("✜ 𝐉𝐨𝐢𝐧 𝐔𝐩𝐃𝐚𝐭𝐞 Group 🥱✜" ,url=f"https://t.me/+3k-1zcJxINYwNGZl") ],
+                    InlineKeyboardButton("✜ 𝐉𝐨𝐢𝐧 𝐔𝐩𝐃𝐚𝐭𝐞 Group 🥱✜" ,url=f "https://t.me/+qutXY5xbN0I4OWY1") ],
                     [
-                    InlineKeyboardButton("✜ NIKHIL SAINI ✜" ,url="https://t.me/Nikhil_saini_khe") ],
+                    InlineKeyboardButton("✜ 𝐁𝐑𝐈𝐉𝐄𝐒𝐇 ✜" ,url="https://t.me/+qutXY5xbN0I4OWY1") ],
                     [
-                    InlineKeyboardButton("FOLLOW " ,url="https://www.instagram.com/nikhil.saini.khe") ]                               
+                    InlineKeyboardButton("FOLLOW " ,url="https://t.me/+qutXY5xbN0I4OWY1") ]                               
             ]))
 
 @bot.on_message(filters.command(["stop"]))
 async def restart_handler(_, m):
-    await m.reply_text("♦ 𝐒𝐭𝐨𝐩ped Baby💞 ♦", True)
+    await m.reply_text("♦ 𝐒𝐭𝐨𝐩 sona bahu 💞 ♦", True)
     os.execl(sys.executable, sys.executable, *sys.argv)
 
 
 
-@bot.on_message(filters.command(["saini"]))
+@bot.on_message(filters.command(["💫 𝐁𝐑𝐈𝐉𝐄𝐒𝐇 💫"]))
 
 async def upload(bot: Client, m: Message):
-    editable = await m.reply_text('𝕤ᴇɴᴅ ᴛxᴛ ғɪʟᴇ ⚡️')
+    editable = await m.reply_text('𝕤ᴇɴᴅ ᴛxᴛ ғɪʟᴇ 💫')
     input: Message = await bot.listen(editable.chat.id)
     x = await input.download()
     await input.delete(True)
@@ -174,9 +174,9 @@ async def upload(bot: Client, m: Message):
     await input3.delete(True)
 
     # Default credit message
-    credit = "️𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎 🕊️⁪⁬⁮⁮⁮"
+    credit = "️💫 𝐁𝐑𝐈𝐉𝐄𝐒𝐇 💫⁪⁬⁮⁮⁮"
     if raw_text3 == '1':
-        CR = '𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎 🕊️'
+        CR = '💫 𝐁𝐑𝐈𝐉𝐄𝐒𝐇 💫'
     elif raw_text3:
         CR = raw_text3
     else:
@@ -234,7 +234,7 @@ async def upload(bot: Client, m: Message):
              url =  f"https://madxpw-api-e0913deb3016.herokuapp.com/{vid_id}/master.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzU4ODU0NzguMjM5LCJkYXRhIjp7Il9pZCI6IjY1NTc2ODk5NDA3OTUyMDAxODI1YzRkOSIsInVzZXJuYW1lIjoiODUyMTExOTAxOSIsImZpcnN0TmFtZSI6Ik5hbXJhdGEiLCJsYXN0TmFtZSI6IlN1bWFuIiwib3JnYW5pemF0aW9uIjp7Il9pZCI6IjVlYjM5M2VlOTVmYWI3NDY4YTc5ZDE4OSIsIndlYnNpdGUiOiJwaHlzaWNzd2FsbGFoLmNvbSIsIm5hbWUiOiJQaHlzaWNzd2FsbGFoIn0sInJvbGVzIjpbIjViMjdiZDk2NTg0MmY5NTBhNzc4YzZlZiJdLCJjb3VudHJ5R3JvdXAiOiJJTiIsInR5cGUiOiJVU0VSIn0sImlhdCI6MTczNTI4MDY3OH0.0U6QwJy9_7iHFkXBY-rPtZLOM37OeXD6OX1vaq2ebD8"
 
             name1 = links[i][0].replace("\t", "").replace(":", "").replace("/", "").replace("+", "").replace("#", "").replace("|", "").replace("@", "").replace("*", "").replace(".", "").replace("https", "").replace("http", "").strip()
-            name = f'{name1[:60]} 𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎'
+            name = f'{name1[:60]} 𝐁𝐑𝐈𝐉𝐄𝐒𝐇'
                       
             if "/master.mpd" in url :
                 if "https://sec1.pw.live/" in url:
@@ -274,8 +274,8 @@ async def upload(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**╭━━━━━━━━━━━╮\n🎬 VIDEO ID: {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\n📄 Title: {name1} {res} 𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎.mkv\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
-                cc1 = f'**╭━━━━━━━━━━╮\n📁 FILE ID: {str(count).zfill(3)}.\n╰━━━━━━━━━━╯\n\n📄 Title: {name1} 𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎.pdf \n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
+                cc = f'**╭━━━━━ᕙ⁠(⁠＠⁠°⁠▽⁠°⁠＠⁠)⁠ᕗ━━━━━╮\n🎬 VIDEO ID: {str(count).zfill(3)}.\n╰━━━━━(⁠๑⁠♡⁠⌓⁠♡⁠๑⁠)━━━━━━╯\n\n📄 Title: {name1} {res} 𝐁𝐑𝐈𝐉𝐄𝐒𝐇.mkv\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
+                cc1 = f'**╭━━━━ᕙ⁠(⁠ ⁠ ⁠•⁠ ⁠‿⁠ ⁠•⁠ ⁠ ⁠)⁠ᕗ━━━━━╮\n📁 FILE ID: {str(count).zfill(3)}.\n╰━━━━━(⁠●⁠♡⁠∀⁠♡⁠)━━━━━╯\n\n📄 Title: {name1} 𝐁𝐑𝐈𝐉𝐄𝐒𝐇.pdf \n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
                     
                 
                 if "drive" in url:
@@ -330,8 +330,8 @@ async def upload(bot: Client, m: Message):
                         
                           
                 else:
-                    Show = f"❊⟱ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ⟱❊ »\n\n📄 Title:- `{name}\n\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`"
-                    prog = await m.reply_text(f"**Downloading:-**\n\n**📄 Title:-** `{name}\n\nQuality - {raw_text2}`\n\n**link:**`{url}`\n\n **Bot Made By NIKHIL SAINI**")
+                    Show = f"❊⟱ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ⟱❊ »\n\n📄 Title:- `{name}\n\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`"url dekh kar kya karega tum "
+                    prog = await m.reply_text(f"**Downloading:-**\n\n**📄 Title:-** `{name}\n\nQuality - {raw_text2}`\n\n**link:**`{url}`\n\n **BOT MADE BY»⟩💫 𝐁𝐑𝐈𝐉𝐄𝐒𝐇 💫**")
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
                     await prog.delete(True)
@@ -340,7 +340,7 @@ async def upload(bot: Client, m: Message):
 
             except Exception as e:
                 await m.reply_text(
-                    f"⌘ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐈𝐧𝐭𝐞𝐫𝐮𝐩𝐭𝐞𝐝\n\n⌘ 𝐍𝐚𝐦𝐞 » {name}\n⌘ 𝐋𝐢𝐧𝐤 » `{url}`\n⌘ 𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎"
+                    f"⌘ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐈𝐧𝐭𝐞𝐫𝐮𝐩𝐭𝐞𝐝\n\n⌘ 𝐍𝐚𝐦𝐞 » {name}\n⌘ 𝐋𝐢𝐧𝐤 » `{url}`\n⌘ 𝐁𝐑𝐈𝐉𝐄𝐒𝐇"
                 )
                 failed_count += 1  # Increment the failed count
 
@@ -350,7 +350,7 @@ async def upload(bot: Client, m: Message):
     except Exception as e:
         await m.reply_text(e)
 
-    await m.reply_text(f"🔰Thanks for Choosing 𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎🔰\nTotal failed downloads: {failed_count}")  # Report the failed count
+    await m.reply_text(f"🤫Thanks for Choosing 𝐁𝐑𝐈𝐉𝐄𝐒𝐇 😉\nTotal failed downloads: {failed_count}")  # Report the failed count
 
 
 
